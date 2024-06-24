@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2B4F8A2C255BE600BB07B5 /* InterviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */; };
+		4DD03EE12C23C1E900B5A916 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE02C23C1E900B5A916 /* App.swift */; };
+		4DD03EE32C23C1E900B5A916 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE22C23C1E900B5A916 /* MainView.swift */; };
+		4DD03EE72C23C1EA00B5A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD03EE62C23C1EA00B5A916 /* Assets.xcassets */; };
+		4DD03EF32C23C20600B5A916 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD03EF22C23C20600B5A916 /* FeedKit */; };
+		4DD03EF62C23C21600B5A916 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD03EF52C23C21600B5A916 /* SwiftSoup */; };
+		4DD03EF82C23C2B700B5A916 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EF72C23C2B700B5A916 /* DetailView.swift */; };
+		4DD03EFB2C23C32400B5A916 /* Speeches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EFA2C23C32400B5A916 /* Speeches.swift */; };
+		4DD03EFF2C23C5EF00B5A916 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EFE2C23C5EF00B5A916 /* Speech.swift */; };
+		4DD03F012C23EFAB00B5A916 /* PressReleases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F002C23EFAB00B5A916 /* PressReleases.swift */; };
+		4DD03F052C23F2CC00B5A916 /* PressRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F042C23F2CC00B5A916 /* PressRelease.swift */; };
+		4DD03F0B2C24060900B5A916 /* FOMCSpeechObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F0A2C24060900B5A916 /* FOMCSpeechObject.swift */; };
+		4DD03F0D2C25025800B5A916 /* SpeechRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F0C2C25025800B5A916 /* SpeechRow.swift */; };
+		4DD03F102C250F0800B5A916 /* Interviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F0F2C250F0800B5A916 /* Interviews.swift */; };
+		4DD03F142C25160D00B5A916 /* YouTubeSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F132C25160D00B5A916 /* YouTubeSearchResult.swift */; };
+		4DD03F172C25187100B5A916 /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD03F162C25187100B5A916 /* YouTubeKit */; };
+		4DD03F192C25188100B5A916 /* Attributions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F182C25188100B5A916 /* Attributions.swift */; };
+		4DD03F1B2C251BD400B5A916 /* YouTubeInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03F1A2C251BD400B5A916 /* YouTubeInterview.swift */; };
+		4DD03F1F2C254C7100B5A916 /* SVEVideoUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD03F1E2C254C7100B5A916 /* SVEVideoUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewRow.swift; sourceTree = "<group>"; };
+		4DD03EDD2C23C1E900B5A916 /* Federal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Federal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD03EE02C23C1E900B5A916 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4DD03EE22C23C1E900B5A916 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4DD03EE62C23C1EA00B5A916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD03EEB2C23C1EA00B5A916 /* Federal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Federal.entitlements; sourceTree = "<group>"; };
+		4DD03EF72C23C2B700B5A916 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4DD03EFA2C23C32400B5A916 /* Speeches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speeches.swift; sourceTree = "<group>"; };
+		4DD03EFE2C23C5EF00B5A916 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		4DD03F002C23EFAB00B5A916 /* PressReleases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressReleases.swift; sourceTree = "<group>"; };
+		4DD03F042C23F2CC00B5A916 /* PressRelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressRelease.swift; sourceTree = "<group>"; };
+		4DD03F0A2C24060900B5A916 /* FOMCSpeechObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOMCSpeechObject.swift; sourceTree = "<group>"; };
+		4DD03F0C2C25025800B5A916 /* SpeechRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRow.swift; sourceTree = "<group>"; };
+		4DD03F0E2C25075500B5A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DD03F0F2C250F0800B5A916 /* Interviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interviews.swift; sourceTree = "<group>"; };
+		4DD03F132C25160D00B5A916 /* YouTubeSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResult.swift; sourceTree = "<group>"; };
+		4DD03F182C25188100B5A916 /* Attributions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributions.swift; sourceTree = "<group>"; };
+		4DD03F1A2C251BD400B5A916 /* YouTubeInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeInterview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD03EDA2C23C1E900B5A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD03EF32C23C20600B5A916 /* FeedKit in Frameworks */,
+				4DD03F1F2C254C7100B5A916 /* SVEVideoUI in Frameworks */,
+				4DD03EF62C23C21600B5A916 /* SwiftSoup in Frameworks */,
+				4DD03F172C25187100B5A916 /* YouTubeKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2B4F882C255BD500BB07B5 /* Interviews */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03F0F2C250F0800B5A916 /* Interviews.swift */,
+				4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */,
+			);
+			path = Interviews;
+			sourceTree = "<group>";
+		};
+		4D2B4F8B2C28F3F200BB07B5 /* Press Releases */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03F002C23EFAB00B5A916 /* PressReleases.swift */,
+			);
+			path = "Press Releases";
+			sourceTree = "<group>";
+		};
+		4DD03ED42C23C1E800B5A916 = {
+			isa = PBXGroup;
+			children = (
+				4DD03EDF2C23C1E900B5A916 /* Federal */,
+				4DD03EDE2C23C1E900B5A916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD03EDE2C23C1E900B5A916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EDD2C23C1E900B5A916 /* Federal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD03EDF2C23C1E900B5A916 /* Federal */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03F0E2C25075500B5A916 /* Info.plist */,
+				4DD03EE62C23C1EA00B5A916 /* Assets.xcassets */,
+				4DD03EEB2C23C1EA00B5A916 /* Federal.entitlements */,
+				4DD03EF92C23C31500B5A916 /* Views */,
+				4DD03F062C23F2DA00B5A916 /* Classes */,
+				4DD03F092C2405FE00B5A916 /* Structs */,
+				4DD03EFC2C23C5CF00B5A916 /* Enums */,
+			);
+			path = Federal;
+			sourceTree = "<group>";
+		};
+		4DD03EF92C23C31500B5A916 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EE02C23C1E900B5A916 /* App.swift */,
+				4DD03EE22C23C1E900B5A916 /* MainView.swift */,
+				4DD03F1C2C25249200B5A916 /* Speeches */,
+				4D2B4F882C255BD500BB07B5 /* Interviews */,
+				4D2B4F8B2C28F3F200BB07B5 /* Press Releases */,
+				4DD03F122C250F1600B5A916 /* Attributions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DD03EFC2C23C5CF00B5A916 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EF72C23C2B700B5A916 /* DetailView.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		4DD03EFD2C23C5D900B5A916 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EFE2C23C5EF00B5A916 /* Speech.swift */,
+				4DD03F042C23F2CC00B5A916 /* PressRelease.swift */,
+				4DD03F1A2C251BD400B5A916 /* YouTubeInterview.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD03F062C23F2DA00B5A916 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EFD2C23C5D900B5A916 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4DD03F092C2405FE00B5A916 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03F0A2C24060900B5A916 /* FOMCSpeechObject.swift */,
+				4DD03F132C25160D00B5A916 /* YouTubeSearchResult.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4DD03F122C250F1600B5A916 /* Attributions */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03F182C25188100B5A916 /* Attributions.swift */,
+			);
+			path = Attributions;
+			sourceTree = "<group>";
+		};
+		4DD03F1C2C25249200B5A916 /* Speeches */ = {
+			isa = PBXGroup;
+			children = (
+				4DD03EFA2C23C32400B5A916 /* Speeches.swift */,
+				4DD03F0C2C25025800B5A916 /* SpeechRow.swift */,
+			);
+			path = Speeches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD03EDC2C23C1E900B5A916 /* Federal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD03EEE2C23C1EA00B5A916 /* Build configuration list for PBXNativeTarget "Federal" */;
+			buildPhases = (
+				4DD03ED92C23C1E900B5A916 /* Sources */,
+				4DD03EDA2C23C1E900B5A916 /* Frameworks */,
+				4DD03EDB2C23C1E900B5A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Federal;
+			packageProductDependencies = (
+				4DD03EF22C23C20600B5A916 /* FeedKit */,
+				4DD03EF52C23C21600B5A916 /* SwiftSoup */,
+				4DD03F162C25187100B5A916 /* YouTubeKit */,
+				4DD03F1E2C254C7100B5A916 /* SVEVideoUI */,
+			);
+			productName = Federal;
+			productReference = 4DD03EDD2C23C1E900B5A916 /* Federal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD03ED52C23C1E800B5A916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4DD03EDC2C23C1E900B5A916 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DD03ED82C23C1E800B5A916 /* Build configuration list for PBXProject "Federal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD03ED42C23C1E800B5A916;
+			packageReferences = (
+				4DD03EF12C23C20600B5A916 /* XCRemoteSwiftPackageReference "FeedKit" */,
+				4DD03EF42C23C21600B5A916 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				4DD03F152C25187100B5A916 /* XCRemoteSwiftPackageReference "YouTubeKit" */,
+				4DD03F1D2C254C7100B5A916 /* XCRemoteSwiftPackageReference "SVEVideoUI" */,
+			);
+			productRefGroup = 4DD03EDE2C23C1E900B5A916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD03EDC2C23C1E900B5A916 /* Federal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD03EDB2C23C1E900B5A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD03EE72C23C1EA00B5A916 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD03ED92C23C1E900B5A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD03F0B2C24060900B5A916 /* FOMCSpeechObject.swift in Sources */,
+				4DD03F192C25188100B5A916 /* Attributions.swift in Sources */,
+				4DD03EE32C23C1E900B5A916 /* MainView.swift in Sources */,
+				4DD03F1B2C251BD400B5A916 /* YouTubeInterview.swift in Sources */,
+				4DD03F012C23EFAB00B5A916 /* PressReleases.swift in Sources */,
+				4DD03EE12C23C1E900B5A916 /* App.swift in Sources */,
+				4D2B4F8A2C255BE600BB07B5 /* InterviewRow.swift in Sources */,
+				4DD03F052C23F2CC00B5A916 /* PressRelease.swift in Sources */,
+				4DD03F102C250F0800B5A916 /* Interviews.swift in Sources */,
+				4DD03F142C25160D00B5A916 /* YouTubeSearchResult.swift in Sources */,
+				4DD03EF82C23C2B700B5A916 /* DetailView.swift in Sources */,
+				4DD03EFF2C23C5EF00B5A916 /* Speech.swift in Sources */,
+				4DD03F0D2C25025800B5A916 /* SpeechRow.swift in Sources */,
+				4DD03EFB2C23C32400B5A916 /* Speeches.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DD03EEC2C23C1EA00B5A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD03EED2C23C1EA00B5A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4DD03EEF2C23C1EA00B5A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Federal/Federal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYM4Z6MU8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Federal/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorigami.Federal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DD03EF02C23C1EA00B5A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Federal/Federal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYM4Z6MU8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Federal/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorigami.Federal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD03ED82C23C1E800B5A916 /* Build configuration list for PBXProject "Federal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD03EEC2C23C1EA00B5A916 /* Debug */,
+				4DD03EED2C23C1EA00B5A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD03EEE2C23C1EA00B5A916 /* Build configuration list for PBXNativeTarget "Federal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD03EEF2C23C1EA00B5A916 /* Debug */,
+				4DD03EF02C23C1EA00B5A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DD03EF12C23C20600B5A916 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+		4DD03EF42C23C21600B5A916 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+		4DD03F152C25187100B5A916 /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+		4DD03F1D2C254C7100B5A916 /* XCRemoteSwiftPackageReference "SVEVideoUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SergioEstevao/SVEVideoUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DD03EF22C23C20600B5A916 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD03EF12C23C20600B5A916 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+		4DD03EF52C23C21600B5A916 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD03EF42C23C21600B5A916 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		4DD03F162C25187100B5A916 /* YouTubeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD03F152C25187100B5A916 /* XCRemoteSwiftPackageReference "YouTubeKit" */;
+			productName = YouTubeKit;
+		};
+		4DD03F1E2C254C7100B5A916 /* SVEVideoUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD03F1D2C254C7100B5A916 /* XCRemoteSwiftPackageReference "SVEVideoUI" */;
+			productName = SVEVideoUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DD03ED52C23C1E800B5A916 /* Project object */;
+}
