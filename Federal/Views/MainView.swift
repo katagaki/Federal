@@ -26,6 +26,7 @@ struct MainView: View {
                     NavigationLink("Bloomberg", value: DetailView.youtubeBloomberg)
                 }
                 Section("More") {
+                    NavigationLink("YouTube Downloader", value: DetailView.toolsYouTubeDownloader)
                     NavigationLink("Attributions", value: DetailView.attributions)
                 }
             }
@@ -47,6 +48,8 @@ struct MainView: View {
             case .youtubeBloomberg:
                 // @markets on YouTube
                 Interviews(channelId: "UCIALMKvObZNtJ6AmdCLP7Lg")
+            case .toolsYouTubeDownloader:
+                YouTubeDownloader()
             case .attributions:
                 Attributions()
             default:

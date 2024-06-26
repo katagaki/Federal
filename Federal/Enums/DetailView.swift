@@ -14,5 +14,6 @@ enum DetailView: Hashable {
     case youtubeCNBCTelevision
     case youtubeSixtyMinutes
     case youtubeBloomberg
+    case toolsYouTubeDownloader
     case attributions
 }

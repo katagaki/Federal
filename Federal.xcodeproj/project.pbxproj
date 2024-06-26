@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4D2B4F8A2C255BE600BB07B5 /* InterviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */; };
 		4D6071812C2BDA830027EBCC /* SpeechExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6071802C2BDA830027EBCC /* SpeechExport.swift */; };
+		4D6071842C2BEF440027EBCC /* YouTubeDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6071832C2BEF440027EBCC /* YouTubeDownloader.swift */; };
+		4D6071862C2BF2EA0027EBCC /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6071852C2BF2EA0027EBCC /* DownloadManager.swift */; };
 		4DD03EE12C23C1E900B5A916 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE02C23C1E900B5A916 /* App.swift */; };
 		4DD03EE32C23C1E900B5A916 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE22C23C1E900B5A916 /* MainView.swift */; };
 		4DD03EE72C23C1EA00B5A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD03EE62C23C1EA00B5A916 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewRow.swift; sourceTree = "<group>"; };
 		4D6071802C2BDA830027EBCC /* SpeechExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechExport.swift; sourceTree = "<group>"; };
+		4D6071832C2BEF440027EBCC /* YouTubeDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeDownloader.swift; sourceTree = "<group>"; };
+		4D6071852C2BF2EA0027EBCC /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		4DD03EDD2C23C1E900B5A916 /* Federal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Federal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD03EE02C23C1E900B5A916 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4DD03EE22C23C1E900B5A916 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 			path = "Press Releases";
 			sourceTree = "<group>";
 		};
+		4D6071822C2BEF350027EBCC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4D6071832C2BEF440027EBCC /* YouTubeDownloader.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		4DD03ED42C23C1E800B5A916 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +133,7 @@
 				4DD03F1C2C25249200B5A916 /* Speeches */,
 				4D2B4F882C255BD500BB07B5 /* Interviews */,
 				4D2B4F8B2C28F3F200BB07B5 /* Press Releases */,
+				4D6071822C2BEF350027EBCC /* Tools */,
 				4DD03F122C250F1600B5A916 /* Attributions */,
 			);
 			path = Views;
@@ -148,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD03EFD2C23C5D900B5A916 /* Models */,
+				4D6071852C2BF2EA0027EBCC /* DownloadManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -266,7 +280,9 @@
 				4DD03F1B2C251BD400B5A916 /* YouTubeInterview.swift in Sources */,
 				4DD03F012C23EFAB00B5A916 /* PressReleases.swift in Sources */,
 				4DD03EE12C23C1E900B5A916 /* App.swift in Sources */,
+				4D6071842C2BEF440027EBCC /* YouTubeDownloader.swift in Sources */,
 				4D2B4F8A2C255BE600BB07B5 /* InterviewRow.swift in Sources */,
+				4D6071862C2BF2EA0027EBCC /* DownloadManager.swift in Sources */,
 				4DD03F052C23F2CC00B5A916 /* PressRelease.swift in Sources */,
 				4DD03F102C250F0800B5A916 /* Interviews.swift in Sources */,
 				4DD03F142C25160D00B5A916 /* YouTubeSearchResult.swift in Sources */,
