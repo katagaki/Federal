@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D2B4F8A2C255BE600BB07B5 /* InterviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */; };
+		4D6071812C2BDA830027EBCC /* SpeechExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6071802C2BDA830027EBCC /* SpeechExport.swift */; };
 		4DD03EE12C23C1E900B5A916 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE02C23C1E900B5A916 /* App.swift */; };
 		4DD03EE32C23C1E900B5A916 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD03EE22C23C1E900B5A916 /* MainView.swift */; };
 		4DD03EE72C23C1EA00B5A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD03EE62C23C1EA00B5A916 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		4D2B4F892C255BE600BB07B5 /* InterviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewRow.swift; sourceTree = "<group>"; };
+		4D6071802C2BDA830027EBCC /* SpeechExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechExport.swift; sourceTree = "<group>"; };
 		4DD03EDD2C23C1E900B5A916 /* Federal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Federal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD03EE02C23C1E900B5A916 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4DD03EE22C23C1E900B5A916 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				4DD03F0A2C24060900B5A916 /* FOMCSpeechObject.swift */,
 				4DD03F132C25160D00B5A916 /* YouTubeSearchResult.swift */,
+				4D6071802C2BDA830027EBCC /* SpeechExport.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				4DD03F052C23F2CC00B5A916 /* PressRelease.swift in Sources */,
 				4DD03F102C250F0800B5A916 /* Interviews.swift in Sources */,
 				4DD03F142C25160D00B5A916 /* YouTubeSearchResult.swift in Sources */,
+				4D6071812C2BDA830027EBCC /* SpeechExport.swift in Sources */,
 				4DD03EF82C23C2B700B5A916 /* DetailView.swift in Sources */,
 				4DD03EFF2C23C5EF00B5A916 /* Speech.swift in Sources */,
 				4DD03F0D2C25025800B5A916 /* SpeechRow.swift in Sources */,

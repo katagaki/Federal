@@ -113,6 +113,21 @@ final class Speech: Equatable {
         return nil
     }
 
+    func exportStruct() -> SpeechExport {
+        return SpeechExport(
+            title: self.title,
+            link: self.link,
+            description: self.itemDescription,
+            category: self.category,
+            publicationDate: self.pubDate,
+            time: self.time ?? "",
+            speaker: self.speaker ?? "",
+            location: self.location ?? "",
+            videoURL: self.videoLink ?? "",
+            contents: self.contents ?? ""
+        )
+    }
+
     static func == (lhs: Speech, rhs: Speech) -> Bool {
         return lhs.title == rhs.title && lhs.link == rhs.link
     }

@@ -36,15 +36,13 @@ struct Speeches: View {
             ToolbarItem(placement: .primaryAction) {
                 HStack {
                     Toggle("Powell Mode", isOn: $isPowellMode)
-                    Button("Refresh from RSS") {
-                        Task.detached {
-                            await getNewFeeds()
-                        }
-                    }
-                    Button("Refresh from API") {
+                    Button("Reload Data") {
                         Task.detached {
                             await getFromAPI()
                         }
+                    }
+                    Button("Export to Downloads") {
+                        export()
                     }
                     Button("Delete All", role: .destructive) {
                         try? modelContext.delete(model: Speech.self)
@@ -123,5 +121,27 @@ struct Speeches: View {
         }
         modelContext.autosaveEnabled = true
         try? modelContext.save()
+    }
+
+    func export() {
+        var exportData: [SpeechExport] = []
+        var exportTargets = feedItems.map({ $0.exportStruct() })
+        if isPowellMode {
+            exportTargets = exportTargets
+                .filter({ ($0.speaker).lowercased().contains("jerome") && ($0.speaker).lowercased().contains("powell") })
+        }
+        exportTargets = exportTargets.sorted(by: {$0.publicationDate > $1.publicationDate})
+        exportData.append(contentsOf: exportTargets)
+        let encoder = JSONEncoder()
+        if let data = try? encoder.encode(exportData) {
+            do {
+                if let downloadsURL = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
+                    try data.write(to: downloadsURL.appendingPathComponent("Speeches-\(Date.now.timeIntervalSince1970).json"))
+                    print("Saved JSON to Downloads folder.")
+                }
+            } catch {
+                print("Could not save JSON: \(error)")
+            }
+        }
     }
 }
