@@ -21,6 +21,7 @@ class DownloadManager: NSObject, URLSessionDownloadDelegate {
         await MainActor.run {
             lastError = nil
             progress = 0.0
+            lastDownloadCompleted = false
             isDownloading = true
         }
         do {
